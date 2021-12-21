@@ -8,11 +8,11 @@ if os.path.exists(".env"):
     load_dotenv(".env")
     
 # Necessary Vars
-API_ID = int(os.getenv("API_ID", "6"))
-API_HASH = os.getenv("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
-SESSION = os.getenv("SESSION")
+API_ID = int(os.getenv("API_ID", "15020379"))
+API_HASH = os.getenv("API_HASH", "36dc7ea1b7abc3ef395e3ce4908a7d77")
+SESSION = os.getenv("SESSION", "AQCOSB-a6sJ1dw2d8QSbVjIr8uKxkdcNj2EIFDg1R790RAbMI0cBwqbpAYkfo2jxKI6t9DaSw2D2p-EUI6sBMnN_flsotKDevY0u0riYxdSK-XTTsqu9On_OR9N3icRVCd6b24DR7EXV319kkUFR7Hi1Sd-n2hsUAEjFKEed7r_onHao-yQH029K27R3eHevd4YJZ7hUiXUMECEaPLHnl-gpYpsicZnhK6w4X2fU8iNVmKFCMzNL2YtImYC533xFkdLWb32hkzm6KUtBOmUhxe5ivoAQRH3Skigqz-ww0drdyKUEpF9-Q-v1abuCJghOfNs48mOulUAjTUlSfdtlaCBufnwMwwA")
 HNDLR = os.getenv("HNDLR", "!")
-GROUP_MODE = os.getenv("GROUP_MODE", "True")
+GROUP_MODE = os.getenv("GROUP_MODE", "False")
 
 
 contact_filter = filters.create(
